@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FullDateView">
+   		<attr name="PersianDate" format="string" />
+   		<attr name="setColor" format="boolean"/>
+   	</declare-styleable>
+</resources>

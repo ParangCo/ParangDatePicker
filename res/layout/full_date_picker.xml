@@ -1,0 +1,32 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_gravity="center" >
+
+    <LinearLayout
+        android:id="@+id/linlay1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <net.simonvt.numberpicker.NumberPicker
+            android:id="@+id/npYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </net.simonvt.numberpicker.NumberPicker>
+
+        <net.simonvt.numberpicker.NumberPicker
+            android:id="@+id/npMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </net.simonvt.numberpicker.NumberPicker>
+
+        <net.simonvt.numberpicker.NumberPicker
+            android:id="@+id/npDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </net.simonvt.numberpicker.NumberPicker>
+    </LinearLayout>
+
+</merge>
