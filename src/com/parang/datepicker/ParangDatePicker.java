@@ -15,7 +15,7 @@ public class ParangDatePicker extends RelativeLayout {
     public static final String J_MONTH = "jMonth";
     public static final String J_YEAR = "jYear";
     private String[][] monthNames = {
-    		{ "�?روردین", "اردیبهشت", "خرداد", "تیر", "مرداد", "شهریور", "مهر", "آبان", "آذر", "دی", "بهمن", "اس�?ند" },
+    		{ "فروردین", "اردیبهشت", "خرداد", "تیر", "مرداد", "شهریور", "مهر", "آبان", "آذر", "دی", "بهمن", "اسفند" },
     		{ "Janurary", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" }};
     private int[][] monthDays = {
     		{ 31, 31, 31, 31, 31, 31, 30, 30, 30, 30, 30, 29 },
