@@ -92,8 +92,9 @@ public class DariGlyphUtils
 			String[] sentences = input.split("\n");
 			for (int i = 0; i < sentences.length; i++)
 			{
+				if(i > 0)
+					result.append("\n");
 				result.append(reshape(sentences[i]));
-				result.append("\n");
 			}
 			return result.toString();
 		}
